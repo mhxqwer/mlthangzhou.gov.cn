@@ -1,0 +1,367 @@
+/*通用全局样式*/
+*{margin: 0;padding: 0;}
+body {font-family: "微软雅黑";background-color: #eff8fe;}
+
+/*清除浮动*/
+.clearfix {zoom: 1;}
+.clearfix:after {content: "020";height: 0px;display: block;overflow: hidden;clear: both;}
+
+/*清除样式*/
+li {list-style-type: none;}
+a{text-decoration: none;}
+
+/*适配pc端*/
+@media only screen and (min-width: 1200px){
+	.web_top{
+		display: none;
+	}
+	
+	.beijing {
+	    width: 100%;
+	    background-image: url(../images/banner.png);
+	    background-repeat: no-repeat;
+	    background-color: #eff8fe;
+	    background-position: bottom center;    
+	    padding: 30px 0;
+	}
+	.cont{
+		width: 1200px;
+    	margin: 0 auto;
+    	background: #FFFFFF; 	
+	}	
+	/*当前位置*/
+	.dqwz{
+    	height: 45px;
+    	line-height: 45px;
+    	color: #999999;
+    	padding: 0 30px;
+	}
+	.crumbs td{font-size:15px;color: #999999 ;}
+	.crumbs a{font-size:15px;color: #999999 ;}
+	.zt tbody>tr>td>table>tbody>tr>td:first-child span {
+		display: none;
+	}
+	
+	/*文章正文内容*/
+	.content{
+		margin:0 auto;
+	    padding: 20px 20px;
+	}
+	.content .title{
+	    font-size: 28px;
+	    text-align: center;
+	}
+	
+	.article table {
+		margin: auto;
+	}
+	
+	.content .ly{	  
+	    height: 40px;
+	    background-color: #f5f5f5;
+	    text-align: center;
+	    line-height: 40px;
+	    margin-top: 30px;
+	}
+	.content .ly a{
+	    display: inline-block;
+	}
+	.content .article{
+	    margin-top: 35px;
+	}
+	.content .article p{
+	    /* text-indent: 2em; */
+	    line-height: 35px;
+	}
+	/*打印*/
+	.content .dy{
+	    height: 40px;
+	    background-color: #f5f5f5;
+	    margin-top: 40px;
+	    line-height: 40px;
+	    padding-right: 30px;
+	}
+	.content .dy a{
+	    float: right;
+	}
+
+}
+
+/*适配ipad等平板电脑*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.web_top{
+		display: none;
+	}
+	
+	.beijing {
+	    width: 100%;
+	    background-image: url(../images/banner.png);
+	    background-repeat: no-repeat;
+	    background-color: #eff8fe;
+	    background-position: bottom center;
+	    padding: 30px 0;
+	}
+	.cont{
+		width: 1200px;
+    	margin: 0 auto;
+    	background: #FFFFFF;
+	}	
+	/*当前位置*/
+	.dqwz{
+    	height: 45px;
+    	line-height: 45px;
+    	color: #999999;
+    	padding: 0 30px;
+	}
+	.crumbs td{font-size:15px;color: #999999 ;}
+	.crumbs a{font-size:15px;color: #999999 ;}
+	.zt tbody>tr>td>table>tbody>tr>td:first-child span {
+		display: none;
+	}
+	
+	/*文章正文内容*/
+	.content{
+		margin:0 auto;
+	    padding: 20px 20px;
+	}
+	.content .title{
+	    font-size: 28px;
+	    text-align: center;
+	}
+	
+	.article table {
+		margin: auto;
+	}
+	
+	.content .ly{	  
+	    height: 40px;
+	    background-color: #f5f5f5;
+	    text-align: center;
+	    line-height: 40px;
+	    margin-top: 30px;
+	}
+	.content .ly a{
+	    display: inline-block;
+	}
+	.content .article{
+	    margin-top: 35px;
+	}
+	.content .article p{
+	    /* text-indent: 2em; */
+	    line-height: 35px;
+	}
+	/*打印*/
+	.content .dy{
+	    height: 40px;
+	    background-color: #f5f5f5;
+	    margin-top: 40px;
+	    line-height: 40px;
+	    padding-right: 30px;
+	}
+	.content .dy a{
+	    float: right;
+	}
+
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+	/*通用头部*/
+	/* .web_top{
+		width: 100%;
+		background: #FFFFFF;
+		padding: 10px 0;
+	}
+	.web_logo{
+	    float: left;
+	}
+	
+	.cont,.web_top{
+		min-width: 290px;
+	}
+	
+	.web_logo a{
+		margin-top: 5px;
+		margin-left: 10px;
+		display:block; 
+		padding: 20px 60px;
+		overflow: hidden; 
+		background: url(../images/2008031102305901387.png) no-repeat center center;
+		background-size:100% 100%;
+        -moz-background-size:100% 100%;
+	}
+	
+	.nav-list{
+	    margin-top: 10px;
+	    margin-right: 2px;  
+	    float: right;
+	    padding: 6px;
+	}
+	.line{
+	    margin: 2px 0;
+	    display: block;
+	    width: 12px;
+	    height: 2px;
+	    background-color: #6190e8;
+	} */
+	
+	 /* 隐藏手机端nav栏需点击打开 */
+    /* .navigation{ 
+        width: 100%; */
+        /* 高度设0溢出隐藏实现 */
+        /* overflow: hidden;
+        height: 0;
+        position: absolute;
+        margin-top: 60px;
+        background-color: rgba(220, 232, 241, 0.9);
+        transition: height .5s;
+    } */
+    /* .navigationheight{
+        height: 210px;
+    }
+    nav{
+        padding: 0;
+    }
+    nav ul li{
+        float: none;
+        margin-bottom: 15px; 
+        height: 30px;
+        line-height: 30px;
+    }
+    nav ul li.active::before{
+        content: ' ';
+        height: 100%;
+        width: 2px;
+        background-color: #dce8f1; 
+    } */
+	/*当前位置*/
+	.dqwz td{
+		font-size: 0.2rem;
+		line-height: 1.68rem;
+		padding-left: 0.23rem;
+	}
+	.dqwz td a{
+		color: #999999;
+	}
+	.dqwz {
+		width: 90%;
+    	margin: 0 auto;
+	}
+	
+	.dqwz1 span{
+		color: #999;
+	}
+	
+	.zt td {
+		font-family: "微软雅黑";
+		font-weight: normal;
+		font-stretch: normal;
+		letter-spacing: 0rem;
+		color: #000000;
+		background: none;
+		display: contents;
+	}
+	
+	.zt tbody>tr>td>table>tbody>tr>td:first-child span {
+		display: none;
+	}
+	
+	/*文章正文内容*/
+	.content{
+		margin:0 auto;
+		background: #fff;
+    	width: 90%;
+    	padding: 0 !important;
+    	margin-bottom: 2rem;
+	}
+	.content .title{
+	    font-size: 1.58rem;
+	    text-align: center;
+	    border-bottom: none;
+	}
+	
+	.article table {
+		margin: auto;
+	}
+	
+	.content .ly{	  
+	    text-align: center;
+	    line-height: 1.5rem;
+	    margin-top: 0.3rem;
+	    background-color: #f5f5f5;
+	    height: auto !important;
+	    width: 90%;
+	    margin: 0 auto;
+	}
+	
+	#share-2{display: none;}
+	
+	.ly span{
+		display: block;
+    	font-size: 0.78rem;
+	}
+	
+	.content .ly a{
+	    display: inline-block;
+	}
+	.content .article{
+	    margin-top: 35px;
+	}
+	.content .article p{
+		word-break: break-all;
+	    /* text-indent: 2em; */
+	    line-height: 35px;
+	}
+	
+	.content img{
+		max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: auto;
+	}
+	
+	/*打印*/
+	.content .dy{
+	    display: none;
+	}
+	
+	#zoom{
+		text-align: left;
+    	width: 90%;
+    	margin: 0 auto;
+	}
+	
+14:51
+#zoom table{
+    width: 100% !important;
+  }
+  /* table样式清除重置表格元素 */
+  #zoom table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+  }
+  #zoom table th,
+  td {
+    /* table elements 表格元素 */
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  #zoom p img{
+    max-width: 90% !important;
+    height: auto !important;
+  }
+  #zoom table img{
+    max-width: 90% !important;
+    height: auto !important;
+  }
+  #zoom p a{
+    word-break:break-all;
+  }
+  #zoom div{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #zoom video{
+    max-width: 100% !important;
+  }
+
+}

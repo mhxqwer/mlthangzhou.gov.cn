@@ -1,0 +1,50 @@
+/* 通用元件 */
+body{background-color: #f7f7f7;}
+.height30{height: 0.24rem;background-color: #ffffff;}
+.w1200{width: 100%;}
+
+/* 通用头部开始 */
+.top{height: 0.88rem;line-height: 0.88rem;font-size: 0.2rem;padding: 0 0.24rem}
+.banner{height: 1.6rem;line-height: 1.6rem;font-size: 0.32rem;}
+.nav{font-size: 0.36rem;line-height: 1rem;}
+.nav ul li a{height: 1rem;}
+.nav ul{display: flex;display:-webkit-flex;flex-wrap: wrap;}
+.nav ul li{width: 33.33333%;}
+.banner{text-align: center;}
+/* 通用头部结束 */
+/* 通用底部开始 */
+.footer{font-size: 0.24rem;}
+.footer-top{display: none;}
+.footer-bottom{height: 0.98rem;line-height: 0.98rem;background-color: #006eab;color: #ffffff;}
+/* 通用底部结束 */
+
+/* 当前位置开始 */
+.current-position{line-height: 0.64rem;font-size: 0.24rem;background: #ededed;}
+.current-position>div{background:none;padding: 0 0.24rem;}
+.current-position td td{display: none;}
+.current-position td td:last-child{display: block;}
+/* 当前位置结束 */
+
+/* 主体内容开始 */
+.main{border: 0;padding: 0.24rem;background-color: #ffffff;}
+.title{text-align: center;border-bottom: 2px solid #717171;}
+.sub-title{text-align: center;}
+.sub-title span{padding: 0;display: inline-block;padding: 0 0.05rem;}
+.zoom img{margin: 0.1rem auto;max-width: 90%;height: auto;display: block;}
+.author,.resource{text-align: right;}
+.sub-area{display: none;}
+.print-close a{padding-left: 0.2rem;margin-right: 0.25rem;cursor: pointer;}
+.print{background: url(../images/print.png) no-repeat left center;}
+.close{background:url(../images/close.png) no-repeat left center}
+.main embed,.main video{display: block;max-width: 90%;margin: 0 auto;}
+.share,.fjxz,.fjxz-content{display: none;}
+/* 主体内容结束 */
+
+/* 字体定义开始 */
+.title{font-size: 0.36rem;font-weight: normal;line-height: 2.6rem;padding: 0.1rem 0;}
+.sub-title{font-size: 0.28rem;line-height: 0.49rem;padding: 0.2rem 0;}
+.zoom{font-size: 0.32rem;line-height: 0.54rem;}
+.author,.resource{font-size: 0.32rem;line-height: 0.49rem;}
+.prevPage,.nextPage {font-size: 0.32rem;line-height: 0.49rem;padding: 0.1rem 0 0;display: block;}
+.prevPage{margin-top: 0.2rem;}
+/* 字体定义结束 */
